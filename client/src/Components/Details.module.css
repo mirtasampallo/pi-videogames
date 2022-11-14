@@ -1,0 +1,143 @@
+.divGeneral {
+    display: flex;
+    flex-direction: column;display: inline-block;
+    width: 80%;
+}
+
+.div {
+    background-color: #280783;
+    background-image: url("https://cdn.pixabay.com/photo/2021/05/06/14/51/gamepad-6233583_960_720.png");
+    border: 2px solid #ea00ff;
+    border-radius: 5%;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.title {
+    color: aliceblue;
+}
+
+.hr {
+    background-color: #ea00ff; height: 2px; border: 0;
+}
+
+
+
+.divAllInfo {
+    display: flex;
+}
+
+.divImg {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    width: 380px;
+    height: 250px;
+    padding-left: 25px;
+}
+
+.info {
+    color: white;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+span {
+    padding-left: 5px;
+}
+
+
+
+.divBack {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.btn {
+    display: flex;
+    color: rgb(240, 235, 245);
+    background-color: #280783;
+    border-color: rgb(240, 235, 245);
+    border-width: 2px;
+    border-radius: 10%;
+    cursor: pointer;
+    font-family: 'myFont2';
+    font-size: 25px;
+    padding: 10px;
+    width: 230px;
+    justify-content: center;
+}
+
+.btn:hover {
+    font-size: 27px;
+    color: rgb(240, 235, 245);
+    background-color: #4444d1e7;
+    border-color: rgb(240, 235, 245);
+}
+
+
+
+.loading {
+    color: #f5f5ff;
+    font-size: 50px;
+    font-family: 'myFont2';
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+
+/* 
+@font-face {
+    font-family: 'myFont2';
+    src: url('../../fontsType/Perfect\ DOS\ VGA\ 437.ttf');
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    .divGeneral {
+        display: flex;
+        flex-direction: column;
+        display: inline-block;
+        width: 90%;
+    }
+
+    .divAllInfo {
+        display: block;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .div {
+        display: block;
+    }
+
+    .img {
+        width: 280px;
+        height: 180px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
+    .loading {
+        margin-left: auto;
+        margin-right: auto;
+    }
+} */

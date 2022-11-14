@@ -1,0 +1,28 @@
+.containerImage {
+    min-width: 88vw;
+    height: 88vh;
+    background-image: url("https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerImage h1 {
+    text-align: center;
+    color: blue;
+}
+
+.containerImage button {
+    
+    text-decoration: double;
+    width: max-content;
+    height: max-content;
+    min-width: 140px;
+    min-height: 48px;
+    border-radius: 22%;
+    text-transform: 22rem;
+    background-color: aqua;
+    color: red;
+    border: 0;
+}
